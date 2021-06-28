@@ -1,0 +1,99 @@
+.list-container {
+	min-height: 750px;
+}
+
+.list-container h1 {
+	color: var(--green);
+	padding-top: 90px;
+	padding-bottom: 90px;
+	text-align: center;
+}
+
+table.table {
+	width: 90%;
+	border: 1px solid var(--green);
+	margin: auto;
+}
+
+.left-border {
+	border-left: 1px solid var(--green);
+}
+
+.table>thead>tr>th {
+	border-color: var(--green);
+}
+
+.table>tbody>tr>td {
+	border-color: var(--green);
+}
+
+.center {
+	text-align: center;
+}
+
+span {
+	display: inline-block;
+	width: 200px;
+	text-align: left;
+}
+
+.list-container h1 {
+    color: var(--green);
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.list-container button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--green);
+    color:var(--white);
+    width: 49%;
+}
+
+.list-container button:hover {
+    border: 1px solid var(--green);
+    background-color: var(--white);
+    color: var(--green);
+}
+
+.list-container form select {
+    border: var(--green) 1px solid;
+    color: var(--green);
+}
+
+/* .list-container form input::placeholder {
+    color: var(--green);
+    opacity: 1; Firefox
+}
+  
+.list-container form input:-ms-input-placeholder { Internet Explorer 10-11
+   color: var(--green);
+}
+  
+.list-container form input::-ms-input-placeholder { Microsoft Edge
+   color: var(--green);
+} */
+h5 {
+	color: var(--green)
+}
+h3 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+}
+.border {
+	border: 1px solid var(--Dark-grey);
+}
+.result-container {
+	min-height: 500px;
+	width: 90%;
+}
+

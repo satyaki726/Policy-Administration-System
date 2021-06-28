@@ -1,0 +1,54 @@
+* {
+	overflow: hidden;
+}
+.register {
+    /*  grid-area: register;*/
+    min-height: 750px;
+}
+
+.register h1 {
+    color: var(--green);
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.register a {
+    color: var(--green);
+}
+
+.register p{
+	
+    padding-top: 15px;
+}
+.register button {
+    margin-top: 50px;
+}
+.register form input {
+    border: var(--green) 1px solid;
+}
+.register form input::placeholder {
+    color: var(--green);
+    opacity: 1; /* Firefox */
+}
+  
+.register form input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: var(--green);
+}
+  
+.register form input::-ms-input-placeholder { /* Microsoft Edge */
+   color: var(--green);
+}
+
+/*  non desktop only */
+@media screen and (max-width: 993px) {
+
+    .register {
+        grid-area: register;
+        height: 750px;
+    }
+    
+    .register h1 {
+        padding-bottom: 50px;
+    }
+}

@@ -1,0 +1,43 @@
+.grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        height: auto;
+        grid-template-areas: 
+        "side-navbar content content content content"
+        
+    }
+    
+.side-navbar {
+	padding-top: 100px;
+	grid-area : side-navbar;
+	border-right: 1px solid var(--green);
+	
+}
+
+.side-navbar ul {
+	padding-left: 50px;
+}
+
+.side-navbar ul a {
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 15px;
+	color: var(--Dark-grey);
+	line-height: 80px;
+	
+}
+
+.side-navbar ul a:hover {
+	color: var(--green);
+	text-decoration: underline;
+	
+}
+.content {
+	grid-area : content;
+	background-color: var(Very-Light-Gray);
+}
+.active {
+	color: var(--green);
+	text-decoration: underline;
+}
+
